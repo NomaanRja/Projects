@@ -1,7 +1,7 @@
 let button = document.querySelectorAll(".button")
 let body = document.querySelector("body")
 
-button.forEach( function(butt){
+button.forEach( (butt)=>{
    butt.addEventListener("click" ,function(e){
     console.log("hello i am working")
     console.log(e.target)
